@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #011222;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header img{
+    width: 150px;
+}
+
+.hero{
+    height: 500px;
+    background-image: url(carro.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero div{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.hero h1{
+    color: white;
+    font-size: 50px;
+}
+
+.produtos{
+    background-color: #011222;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.produtos h2{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #03305a;
+    border-radius: 6px;
+    height: 250px;
+    width: 200px;
+}
+
+.item img{
+    width: 60%;
+}
+
+.sobre{
+    background-color: #03305a;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer{
+    height: 50px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
